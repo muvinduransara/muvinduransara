@@ -638,6 +638,17 @@ nav a:hover {
     transform: translateY(-5px);
 }
 
+.btn-contac {
+    background-color: rgb(6, 53, 124);
+    color: var(--text-strong);
+    border: 1px solid rgb(11, 64, 144);
+}
+
+.btn-contac:hover {
+    background-color: rgb(11, 64, 144);
+    transform: translateY(-5px);
+}
+
 .btn-ai {
     display: inline-flex;
     align-items: center;
