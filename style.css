@@ -35,7 +35,7 @@ html {
     --success: #44ef55;
     --success-soft: rgba(68, 239, 85, 0.78);
     --danger: #ef4444;
-    --danger-soft: rgba(239, 68, 68, 0.78);
+    --danger-soft: #c9dd45;
     --warning: #ff6f08;
     --warning-soft: rgba(255, 111, 8, 0.78);
     --shadow-strong: 0 10px 30px rgba(0, 0, 0, 0.2);
