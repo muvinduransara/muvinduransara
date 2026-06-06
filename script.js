@@ -316,7 +316,7 @@ if (contactForm) {
 
         // Send Email
         emailjs.send(
-            "service_gvabtvi",
+            "service_zs2pa8g",
             "template_h2aenab",
             {
                 name: name,
