@@ -73,17 +73,17 @@ Advanced Studies in Software Engineering
 `,
 
 contact:`
-📧 muvindu2110@gmail.com
+📧 contact@muvinduransara.com
 
 📱 0772612110
 `,
 
 github:`
-🐙 https://github.com/muvindu2110
+🐙 https://github.com/muvinduransara
 `,
 
 linkedin:`
-💼 https://www.linkedin.com/in/muvindu-ransara-84312139b
+💼 https://www.linkedin.com/in/muvinduransara
 `
 };
 
