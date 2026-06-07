@@ -293,8 +293,10 @@ window.onload = () => {
 const saved =
 localStorage.getItem("muvindu-chat");
 
-if (saved) {
-    document.getElementById("messages").innerHTML = saved;
+const messagesBox = document.getElementById("messages");
+
+if (saved && messagesBox) {
+    messagesBox.innerHTML = saved;
 }
 
 initPremiumCountAnimations();
