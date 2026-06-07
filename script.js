@@ -1,9 +1,22 @@
 // smooth scroll example
 document.querySelectorAll('nav a').forEach(link => {
   link.addEventListener('click', function(e){
-    e.preventDefault();
-    document.querySelector(this.getAttribute('href'))
-      .scrollIntoView({ behavior: 'smooth' });
+
+    const target = this.getAttribute('href');
+
+    if (!target.startsWith('#')) {
+      return;
+    }
+
+    const section = document.querySelector(target);
+
+    if (section) {
+      e.preventDefault();
+      section.scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+
     closeHeader();
   });
 });
