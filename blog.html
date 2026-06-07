@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Read insightful articles about software engineering, web development, Java programming, AI, IoT, and more from Muvindu Ransara.">
+    <meta property="og:title" content="Blog | Muvindu Ransara - Software Engineer">
+    <meta property="og:description" content="Technical articles on software engineering, web development, and AI.">
+    <meta property="og:url" content="https://muvinduransara.com/blog">
+    <title>Blog | Muvindu Ransara | Software Engineer</title>
+    <link rel="icon" href="image.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog-styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div id="header"></div>
+
+    <!-- Hero Section -->
+    <section class="blog-hero">
+        <img src="my.png" alt="Muvindu Ransara Resume">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Technical Insights & Stories</h1>
+                <p class="hero-subtitle">Exploring software engineering, web development, AI, IoT, and career growth</p>
+                
+                <!-- Search Bar -->
+                <div class="blog-search-container">
+                    <div class="search-wrapper">
+                        <input type="text" id="blog-search" class="blog-search-input" placeholder="Search articles...">
+                        <button class="search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="blog-main">
+        <div class="container">
+            <div class="blog-layout">
+                <!-- Left Column: Blog Posts -->
+                <div class="blog-content">
+                    
+                    <!-- Featured Post -->
+                    <section class="featured-post-section">
+                        <div class="featured-post-card">
+                            <div class="featured-image">
+                                <img src="my_juni.png" alt="My Journey to Becoming a Software Engineer" loading="lazy">
+                                <span class="featured-badge">Featured</span>
+                            </div>
+                            <div class="featured-content">
+                                <div class="post-meta">
+                                    <span class="category-badge java-cat">Software Engineering</span>
+                                    <span class="post-date"><i class="far fa-calendar"></i> June 5, 2026</span>
+                                    <span class="reading-time"><i class="far fa-clock"></i> 8 min read</span>
+                                </div>
+                                <h2 class="featured-title">My Journey to Becoming a Software Engineer in Sri Lanka</h2>
+                                <p class="featured-excerpt">Discover the challenges, opportunities, and lessons I learned on my path to becoming a software engineer. From bootcamp struggles to landing my first tech job, this is my complete journey.</p>
+                                <a href="post-1.html" class="read-more-btn">Read Full Article <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Blog Grid -->
+                    <section class="blog-grid-section">
+                        <h2 class="section-title">All Articles</h2>
+                        <div class="blog-grid" id="blog-grid">
+                            <!-- Blog cards will be populated here -->
+                        </div>
+                    </section>
+
+                    <!-- Pagination -->
+                    <nav class="pagination-nav">
+                        <ul class="pagination" id="pagination">
+                            <!-- Pagination will be populated here -->
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Right Column: Sidebar -->
+                <aside class="blog-sidebar">
+                    <!-- Categories Widget -->
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">Categories</h3>
+                        <div class="categories-list" id="categories-list">
+                            <!-- Categories will be populated here -->
+                        </div>
+                    </div>
+
+                    <!-- Recent Posts Widget -->
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">Recent Posts</h3>
+                        <div class="recent-posts" id="recent-posts">
+                            <!-- Recent posts will be populated here -->
+                        </div>
+                    </div>
+
+                    <!-- Popular Posts Widget -->
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">Popular Posts</h3>
+                        <div class="popular-posts" id="popular-posts">
+                            <!-- Popular posts will be populated here -->
+                        </div>
+                    </div>
+
+                    <!-- Tags Widget -->
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">Tags</h3>
+                        <div class="tags-cloud" id="tags-cloud">
+                            <!-- Tags will be populated here -->
+                        </div>
+                    </div>
+
+                    <!-- Author Info Widget -->
+                    <div class="sidebar-widget author-widget">
+                        <div class="author-card">
+                            <img src="../my.png" alt="Muvindu Ransara" class="author-image">
+                            <h3 class="author-name">Muvindu Ransara</h3>
+                            <p class="author-bio">Software Engineer | Full-Stack Web Developer | Java Developer | IoT & AI Enthusiast</p>
+                            <div class="author-links">
+                                <a href="https://github.com/muvindu2110" title="GitHub" target="_blank" rel="noopener">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/muvindu-ransara-84312139b" title="LinkedIn" target="_blank" rel="noopener">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="mailto:muvindu2110@gmail.com" title="Email">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter Widget -->
+                    <div class="sidebar-widget newsletter-widget">
+                        <h3 class="widget-title">Newsletter</h3>
+                        <p class="newsletter-desc">Get the latest articles delivered to your inbox.</p>
+                        <form class="newsletter-form" id="newsletter-form">
+                            <input type="email" placeholder="Your email" required>
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+        <div id="footer"></div>
+
+
+    <!-- Scripts -->
+    <script src="blog-script.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
